@@ -1,0 +1,161 @@
+.song {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-player {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.audio-player audio {
+    width: 100%;
+    outline: none;
+}
+
+.audio-player audio::-webkit-media-controls-panel {
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+
+
+.audio-player audio::-webkit-media-controls-volume-control,
+.audio-player audio::-webkit-media-controls-mute-button,
+.audio-player audio::-webkit-media-controls-toggle-closed-captions-button {
+    display: none;
+}
+
+.audio-player audio::-webkit-media-controls {
+    margin-top: 5px;
+}
+
+.audio-player audio::-webkit-media-controls-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.audio-player audio::-webkit-media-controls-enclosure {
+    width: 100%;
+}
+
+.song-image {
+    width: 50px;
+}
+
+.play-div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.song-title {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 15px;
+}
+
+.song-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(151, 151, 151);
+}
+
+.icon:hover {
+    color: white;
+}
+
+.icon-button {
+    border: none;
+}
+
+.icon-button:active .icon {
+    color: #cf6679;
+}
+
+.playlist-modal {
+    background: #202124;
+    color: #f1f1f1;
+}
+
+.up-button {
+    display: none;
+}
+
+.collapse-container {
+    position: relative;
+    display: none;
+    height: max-content;
+}
+
+@media screen and (max-width: 992px) {
+
+    .song-button,
+    .song-title {
+        display: none !important;
+    }
+
+    .up-button {
+        display: block;
+    }
+
+    .collapse-container {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+#example-collapse-text {
+    position: absolute;
+    bottom: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.collapse-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+}
+
+.collapse-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+}
+
+.collapse-image {
+    width: 200px;
+}
+
+.btn-col-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

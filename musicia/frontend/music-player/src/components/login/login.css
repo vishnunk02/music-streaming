@@ -1,0 +1,58 @@
+
+.signin, .login {
+    display: none;
+}
+
+.signin:target,.login:target {
+    display: block;
+}
+
+.form-control{
+    width: 350px;
+}
+
+.btn-log{
+    color: aliceblue;
+}
+
+.log-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+    background-color: black;
+    width: 400px;
+    height: max-content;
+}
+.log-c-btn{
+    
+    background-color: transparent;
+}
+
+
+.fade-in {
+    padding: 20px;
+    opacity: 0;
+    
+
+    animation: fadeInAnimation 1.5s ease-in forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0; 
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

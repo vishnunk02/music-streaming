@@ -1,0 +1,129 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.musicia{
+    margin-left: 38px;
+}
+.main {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow-y: hidden;
+}
+
+.toggle {
+    border: none !important;
+}
+
+.nav {
+    height: 10vh;
+    background: #cf6679;
+}
+
+.collapse-title {
+    background: #cf6679;
+    color: #f1f1f1;
+}
+
+
+.col-sidebar{
+    height: 70vh;
+    border: 0px 0px 10px 10px;
+    overflow: hidden;
+}
+
+.cont {
+    background-color: #202124;
+    height: 70vh;
+    width: 65.5%;
+    padding: 0;
+    padding-top: 0;
+    overflow-y: scroll;
+}
+
+.nav3{
+    height: 50vh;
+}
+
+.play {
+    height: 15vh;
+}
+
+@media screen and (max-width: 992px) {
+    .cont {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .play {
+        height: 20vh;
+    }
+}
+
+.cont::-webkit-scrollbar {
+    width: 0;
+}
+
+.cont::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+
+.d-none {
+    padding-left: 0;
+}
+
+.d-flex {
+    width: max-content;
+}
+
+.off {
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+#sidebar {
+    background-color: #202124;
+    ;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+
+.user{
+    height: fit-content;
+    display: flex;
+    margin-top: 20%;
+}

@@ -1,0 +1,97 @@
+.table-image {
+    width: 50px;
+}
+
+.card {
+    background-color: transparent !important;
+    border: none;
+    transition: all 0.3s ease;
+
+}
+
+.play-button {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.play-button:active {
+    transform: scale(1.1);
+}
+
+.table {
+    border-collapse: collapse;
+    background-color: transparent;
+    width: 100%;
+}
+.listgroup{
+    display: none;
+}
+.listitem{
+    background-color: transparent;
+    border: none;
+    color: #f1f1f1;
+}
+@media screen and (max-width: 992px) {
+    .table{
+        display: none;
+    }
+    .listgroup{
+        display: block;
+        width: 100%;
+    }
+}
+
+thead.fixed {
+    position: sticky;
+    top: 0;
+    background-color: #202124;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: transparent;
+    color: #f1f1f1;
+    border: none;
+}
+
+.table th {
+    background-color: transparent;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.table tbody tr:hover {
+    background-color: transparent;
+}
+
+.audio-cell {
+    vertical-align: middle;
+}
+
+.hidden {
+    display: none;
+}
+
+.index {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.listitem {
+    display: flex;
+    align-items: center;
+}
+
+.song-details {
+    flex-grow: 1;
+}
+
+.song-name {
+    display: block;
+    white-space: wrap;
+}
